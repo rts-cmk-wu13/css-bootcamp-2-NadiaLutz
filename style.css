@@ -52,3 +52,9 @@ figure figcaption {
 }
 
 
+.section__mid {
+    display: flex;
+    justify-content: center;
+
+}
+
