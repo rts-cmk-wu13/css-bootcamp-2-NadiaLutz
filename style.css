@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, header nav, header nav ul {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 1rem;
+    align-items: center;
+}
+
+
+.bottom__ul {
+    position: absolute;
+    top: 5rem;
+    left: 20rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 2rem;
+}
+
+main {
+    margin-block-start: 5rem;
+}
