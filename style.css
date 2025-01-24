@@ -8,7 +8,7 @@ header, header nav, header nav ul {
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin-inline: 1rem;
+    margin: 0.5rem 0.75rem;
     align-items: center;
 }
 
@@ -16,7 +16,7 @@ header, header nav, header nav ul {
 .bottom__ul {
     position: absolute;
     top: 5rem;
-    left: 20rem;
+    left: 42%;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -24,5 +24,31 @@ header, header nav, header nav ul {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     margin-block-start: 5rem;
 }
+
+.advert__img {
+    margin-inline: auto;
+}
+
+.section__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 20rem;
+}
+
+figure {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-block: 1rem;
+}
+
+figure figcaption {
+    width: 30ch;
+}
+
+
