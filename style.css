@@ -145,7 +145,35 @@ figure figcaption p {
 
 .section__gridcomments {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.left span, .right span {
+    color: red;
+    font-weight: bold;
+}
+
+.left button {
+    background: transparent;
+    font-weight: bold;
+    border: none;
+}
+
+.right span:last-child {
+    color: grey;
+    font-weight: 400;
+}
+
+.right button {
+    background: none;
+    border: none;
 }
 
 .top {
@@ -210,3 +238,4 @@ figure figcaption p {
 .some__subscribe a {
    color: black;
 }
+
