@@ -45,7 +45,7 @@ header, header nav, header nav ul {
 main {
     display: flex;
     flex-direction: column;
-    margin-block-start: 5rem;
+    margin-inline: auto;
 }
 
 
@@ -127,7 +127,7 @@ figure figcaption p {
     grid-template-columns: repeat(3, 1fr);
    margin-inline-end: 30rem;
    gap: 3rem;
-   margin-block-start: 3rem;
+   margin-block: 3rem 20rem;
 }
 
 .grid__item {
@@ -136,4 +136,19 @@ figure figcaption p {
     align-items: center;
     margin-inline: 2rem;
     width: 20rem;
+}
+
+.section__gridcomments {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.top span {
+    color: red;
 }
