@@ -74,7 +74,8 @@ main {
 }
 
 .section__top h1, p {
-    width: 30rem;
+   margin-inline: auto;
+   width: 40rem;
 }
 
 .section__top img {
@@ -104,6 +105,10 @@ figure figcaption p {
     justify-content: space-between;
     margin-inline-start: 30rem;
 
+}
+
+.section__mid-right {
+    text-align: center;
 }
 
 .article__fikdulaest {
@@ -151,4 +156,57 @@ figure figcaption p {
 
 .top span {
     color: red;
+    margin-inline: 10rem;
+}
+
+.top__some {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 50rem;
+    margin-inline: auto;
+    text-align: left;
+    margin-block: 5rem;
+}
+
+.some__btn {
+    display: flex;
+    gap: 2rem;
+    height: 2rem;
+}
+
+.some__btn button {
+    width: 4rem;
+}
+
+.bottom__some {
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    margin-inline: auto;
+    gap: 2rem;
+}
+
+.bottom__some button {
+    background: rgb(199, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    width: 10rem;
+    height: 2rem;
+    margin-inline: auto;
+}
+
+.some__subscribe {
+    display: flex;
+    gap: 1rem;
+    margin-inline: auto;
+}
+
+.some__subscribe span {
+    color: grey;
+}
+
+.some__subscribe a {
+   color: black;
 }
