@@ -21,12 +21,36 @@ header, header nav, header nav ul {
     justify-content: space-between;
     list-style: none;
     gap: 2rem;
+    margin-top: 2rem;
+}
+
+.bottom__ul li {
+    font-weight: bold;
+}
+
+.bottom__ul li:last-child {
+    color: red;
+}
+
+.burger {
+    list-style: none;
+}
+
+.login button {
+    background: transparent;
+    border: none;
+    font-weight: bold;
 }
 
 main {
     display: flex;
     flex-direction: column;
     margin-block-start: 5rem;
+}
+
+main article {
+    width: 40rem;
+    margin-inline-start: 30rem;
 }
 
 .advert__img {
@@ -36,8 +60,20 @@ main {
 .section__top {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-inline: 20rem;
+    justify-content: right;
+    margin-block-start: 3rem;
+}
+
+.section__top span {
+    color: red;
+}
+
+.section__top .grey {
+    color: grey;
+} 
+
+.section__top h1 {
+    font-size: 2rem;
 }
 
 figure {
@@ -49,6 +85,10 @@ figure {
 
 figure figcaption {
     width: 30ch;
+}
+
+figure figcaption p {
+    color: grey;
 }
 
 
